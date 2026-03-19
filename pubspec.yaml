@@ -1,0 +1,76 @@
+name: ridefi_assessment
+description: "A RideFi Test App"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  hooks_riverpod: ^2.5.1
+
+
+  # Networking
+  dio: ^5.7.0
+  pretty_dio_logger:
+
+  # Image caching (airline logos)
+  cached_network_image: ^3.4.1
+
+  # Date & time formatting
+  intl: ^0.19.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Routing
+  auto_route: ^11.1.0
+
+  # Dependency Injection
+  get_it: ^9.2.0
+  injectable: ^2.7.1+4
+
+  # Models & Code Generation
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.8.1
+
+  # Utilities
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.2
+  path: ^1.9.1
+  gap:
+  flutter_animate: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Test
+  mockito: ^5.4.6
+
+  # Code Generators
+  build_runner: ^2.10.4
+  flutter_gen: ^5.12.0
+  auto_route_generator: ^10.4.0
+  injectable_generator: ^2.12.0
+  freezed: ^3.2.3
+  json_serializable: ^6.7.1
+  lean_builder: ^0.1.7
+
+  flutter_lints: ^3.0.1
+  very_good_analysis: ^10.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_gen:
+  output: lib/core/gen_assets

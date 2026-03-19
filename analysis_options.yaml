@@ -1,0 +1,19 @@
+analyzer:
+  errors:
+    inference_failure_on_instance_creation: ignore
+    document_ignores: ignore
+    deprecated_member_use: ignore
+    lines_longer_than_80_chars: ignore
+include: package:very_good_analysis/analysis_options.yaml
+
+linter:
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    public_member_api_docs: false
+    sort_pub_dependencies: false
+    discarded_futures: false
+    unawaited_futures: false
+    
+    
