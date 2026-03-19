@@ -109,7 +109,7 @@ Optional: if you change routes or Injectable setup, regenerate files:
 
 Use this Appetize build to test the app without local setup:
 
-- https://appetize.io/app/YOUR_PUBLIC_APPETIZE_LINK
+- https://appetize.io/app/b_wjxpo36gfvszvqsmk6oaxtx6o4
 
 ## How to Test (Important)
 
